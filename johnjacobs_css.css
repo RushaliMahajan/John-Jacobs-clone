@@ -1,0 +1,236 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header{
+   
+    height: 120px;
+    margin: auto;
+}
+
+.menu-bar{
+    width: 1500px;
+    margin: auto;
+}
+
+.logo{
+
+    height: 70px;
+    width: 135px;
+    padding-left: 150px;
+    position: relative;
+    top: -20px;
+
+}
+
+.logo-div{
+    width: 400px;
+    margin-left: 100px;
+}
+
+.menu-bar-content{
+    float: left;
+    height: 45px;
+    margin: 12px;
+    margin-top: 20px;
+    padding-top: 25px;
+    font-size: 15px;
+}
+
+.menu-bar-content a{
+
+    text-decoration: none;
+    color: black;
+}
+
+.menu-bar-content a:hover{
+    color: aquamarine;
+}
+
+.signin{
+    height: fit-content;
+    position: relative;
+    top: 20px;
+    padding-top:5px;
+    padding-bottom: 4px;
+    width: 70px;
+    border-right: 2px black solid;
+    margin-left: 50px;
+    
+    
+}
+
+.heart{
+    height: 25px;
+    width: 30px;
+    position: relative;
+    top: -5px;
+    margin-right: -10px;
+}
+
+.cart{
+    height: 30px;
+    width: 32px;
+    position: relative;
+    top: -7px;
+    margin-right: -10px;
+}
+
+.magnifying-glass{
+    height: 36px;
+    width: 32px;
+    position: relative;
+    top: -9px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+.mid-part-container{
+    height: 310px;
+    width: 100%;
+    padding-top: 160px;
+}
+.mid-part{
+
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 40px;
+    width: 60%;
+    margin: auto;
+    height: fit-content;
+    text-align: center;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
+
+.what-makes-us{
+    width: 100%;
+    text-align: center;
+    height: 52px;
+    font-weight: 700;
+    padding-top: 18px;
+    font-size: 30px;
+}
+
+.what-makes-us-box{
+    background-color:#ced5d6;
+    height: 630px;
+}
+
+.video{
+    
+    display: block;
+    padding-left: 230px;
+    height: 390px;
+    padding-top: 80px;
+    
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+footer{
+    
+    height: 250px;
+    border-top: 1px grey solid;
+    width: 1500px;
+    margin: auto;
+}
+
+.first-half{
+    height: 250px;
+    width: 50%;
+    float: left;
+}
+
+.second-half{
+    height: 250px;
+    float: right;
+    width: 50%;
+}
+
+.fcontainer{
+
+    height: 250px;
+    width: 50%;
+    margin-left: 160px;
+}
+
+.logo-footer{
+
+    width: 135px;
+    height: 70px;
+    position: relative;
+    top: 10px;
+}
+
+.stores{
+    height: 80px;
+    float: left;
+}
+
+.google{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    top: -50px;
+    left: -8px;
+}
+
+.apple{
+    width: 140x;
+    height: 160px;
+    position: relative;
+    top: -39px;
+
+}
+
+.connect{
+    font-size: 14px;
+    width: 180px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    top: -10px;
+}
+
+.second-footer-divs{
+
+    height: 180px;
+    width: 155px;
+    float: left;
+    margin: 10px;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 20px;
+    border-top: 2px black solid;
+}
+
+.list{
+
+    padding-left: 0;
+    list-style: none;
+    line-height: 22px;
+    
+}
+
+.list a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.contact-div{
+    width: 200px;
+}
+
+.contact-list a{
+    text-decoration: underline;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
