@@ -12,7 +12,7 @@ header{
 }
 
 .menu-bar{
-    width: 1500px;
+    display: flex;
     margin: auto;
 }
 
@@ -88,6 +88,162 @@ header{
 
 /*-------------------------------------------------------------------------------------------------------------------*/
 
+/* button under slider PROPERTIES Starts */ 
+
+.div_container3{
+
+    display: flex;
+    padding: 5px;
+    align-items: center; 
+    padding: auto;
+    
+    }
+    
+    
+    .div_container3 .card{
+    height: 140px;
+    width: 350px;
+        
+    }
+    
+    .div_container3 .vl {
+      border-left: 2px solid #DBDEDE ;
+      height: 210px;
+    }
+    
+    
+    .div_container3  .div1{
+        background-image: url(images/first.jpg);
+        background-size: cover;
+        margin: 50px;
+        margin-left: 25%;
+    
+    }
+    
+    .div_container3 .div2{
+        background-image: url(images/second.jpg);
+         background-size: cover;
+        margin: 50px;
+    }
+    
+    .button_container{
+    
+        padding: 5px;
+        float: left;
+        margin-left:27%; 
+    }
+    
+    
+     .button_container2{
+    
+     
+        flex-wrap: wrap;
+        padding: 5px;
+        float: right;
+        margin-right:23%; 
+    }
+    
+    
+    
+     .btn1{
+     
+            
+            background: transparent;
+           padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            padding-top: 9px;
+            color: #000000;
+            margin-right: 10px;
+            text-align: center;
+            box-shadow: 0.5px 0.5px;
+            padding-bottom: 5px;
+            border-radius: 10px;
+            border: #000000 1px solid;
+            font-size: 20px;
+     }
+    
+    
+      .btn2{
+     
+      
+               
+            background: transparent;
+          padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            padding-top: 9px;
+             text-align: center;
+            color: #000000;
+            box-shadow: 0.5px 0.5px;
+            padding-bottom: 5px;
+            border-radius: 10px;
+            border: #000000 1px solid;
+            font-size: 20px;
+     }
+    
+    
+    
+    
+     .btn3{
+     
+        
+               
+            background: transparent;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            padding-top: 9px;
+            color: #000000;
+    
+             text-align: center;
+            box-shadow: 0.5px 0.5px;
+            padding-bottom: 5px;
+            border-radius: 10px;
+            border: #000000 1px solid;
+            font-size: 20px;
+     }
+    
+      .btn4{
+     
+               
+            background: transparent;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            padding-top: 9px;
+            margin-left: 10px; 
+            color: #000000;
+            text-align: center;
+            box-shadow: 0.5px 0.5px;
+            padding-bottom: 5px;
+            border-radius: 10px;
+            border: #000000 1px solid;
+            font-size: 20px;
+     }
+    
+    
+     .btn1:hover{
+      background:  #41C4CC;
+      color: #fff;
+    }
+    
+    
+    .btn2:hover{
+      background: #41C4CC;
+       color: #fff;
+    }
+    
+    .btn3:hover{
+      background:  #41C4CC;
+       color: #fff;
+    }
+    
+    .btn4:hover{
+      background:  #41C4CC;
+       color: #fff;
+    }
+
 .mid-part-container{
     height: 310px;
     width: 100%;
@@ -106,9 +262,205 @@ header{
 
 /*----------------------------------------------------------------------------------------------------------------*/
 
+.div_container{
+	display: flex;
+	padding: 5px;
+	margin:15px; 
+}
+
+.div_container .card{
+
+	width: 350px;
+	height:290px;
+	margin-bottom: 0;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 20px; 
+}
+
+
+
+.div_container .div1{
+	background-image: url(images/1.jpg);
+	background-size: cover;
+	border-radius:25px;
+	background-position: center;
+    margin-left: 150px;
+    
+}
+
+
+
+.div_container .div2{
+	background-image: url(images/2.jpg);
+	background-size: cover;
+	border-radius:25px;
+	background-position: center;
+}
+
+.div_container .div3{
+	background-image: url(images/3.jpg);
+	background-size: cover;
+	border-radius:25px;
+	background-position: center;
+}
+
+.div_container .div4{
+	background-image: url(images/4.jpg);
+	background-size: cover;
+	border-radius:25px;
+	background-position: center;
+    margin-left: 150px;
+}
+
+.div_container .div5{
+	background-image: url(images/5.jpg);
+	background-size: cover;
+	border-radius:25px;
+	background-position: center;
+}
+
+.div_container .div6{
+	background-image: url(images/6.jpg);
+	background-size: cover;
+	border-radius:25px;
+	background-position: center;
+}
+
+.div_heading{
+display: flex;
+padding: 0;
+margin: 20px;
+font-family: "Montserrat",sans-serif;
+
+}
+.heading_container{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+	padding: 1px;
+    
+    }
+
+.div_heading .head1:hover{   
+color:#6FB7CA ;
+
+}
+
+.div_heading .head2:hover{   
+color:#6FB7CA ;
+}
+.div_heading .head3:hover{   
+color:#6FB7CA  ;
+}
+.div_heading .head4:hover{   
+color:#6FB7CA ;
+}
+.div_heading .head5:hover{   
+color:#6FB7CA  ;
+}
+.div_heading .head6 :hover{   
+color:#6FB7CA ;
+}
+
+.div_heading h4:hover{   
+color:#6FB7CA  ;
+}
+
+.div_heading .head5 h4:hover{
+color:#6FB7CA  ;	
+}
+
+.div_heading .head1{
+
+font-size: 13px;
+color: #353536;
+font-weight: lighter;
+line-height:20px;
+width: 25%;
+text-align: center;
+margin:auto
+
+}
+
+.div_heading  h4{
+color:#7D7C80;
+margin-left: 25px;
+font-size: 13px;
+font-weight: lighter;
+font-family: "Montserrat",sans-serif;
+
+}
+
+
+.div_heading .head2{
+
+font-size: 13px;
+color: #353536;
+line-height:20px;
+width: 22%;
+text-align: center;
+margin:auto;
+}
+
+.div_heading .head3{
+
+font-size: 13px;
+color: #353536;
+width: 22%;
+text-align: center;
+margin:auto;
+
+}
+.div_heading .head4{
+
+    font-size: 13px;
+    color: #353536;
+    line-height:20px;
+    width: 22%;
+    text-align: center;
+    margin:auto;
+
+}
+.div_heading .head5{
+
+
+font-size: 13px;
+color: #353536;
+line-height:20px;
+width: 22%;
+text-align: center;
+margin:auto
+
+}
+
+.div_heading .head5 h4{
+color:#7D7C80;
+font-size: 13px;
+font-weight: lighter;
+text-align: center;
+
+}
+
+
+.div_heading .head6{
+
+font-size: 13px;
+color: #353536;
+line-height:20px;
+text-align: center;
+margin:auto;
+width:22%;
+
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+
+/* THE MOST POPULAR SEARCHES PROPERTIES ENDS */ 
+
 
 .what-makes-us{
-    width: 100%;
     text-align: center;
     height: 52px;
     font-weight: 700;
@@ -119,6 +471,7 @@ header{
 .what-makes-us-box{
     background-color:#ced5d6;
     height: 630px;
+    display: flex;
 }
 
 .video{
@@ -130,13 +483,95 @@ header{
     
 }
 
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/* FEATURED IN PROPERTIES STARTS */ 
+.heading_container1{
+    text-align: center;
+    color: #6F6F6F;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin:10px;
+    
+    }
+    
+    .heading_horizontal{
+    display: flex;
+    padding: 5px;
+    margin: 25px 200px;
+    
+    }
+    .heading_horizontal .card{
+     
+        width: 250px;
+        height:60px;
+        margin: 20px; 
+    
+    
+    }
+    .heading_horizontal .div1{
+        background-image: url(images/a.jpg);
+        background-size: cover;
+        background-position: center;	
+    }
+    
+    .heading_horizontal .div2{
+        background-image: url(images/b.png);
+        background-size: cover;
+        background-position: center;	
+    }
+    .heading_horizontal .div3{
+        background-image: url(images/c.png);
+        background-size: cover;
+        background-position: center;	
+    }
+    .heading_horizontal .div4{
+        background-image: url(images/d.png);
+        background-size: cover;
+        background-position: center;	
+    }
+    
+    .para{
+        
+        margin: 0px 180px;
+        padding: 5px;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        word-wrap: break-word;
+        box-sizing: border-box;
+    
+    }
+    .para p{
+    
+     font-size: 13px;
+     color: #333333;
+     margin-bottom: 10px;
+    }
+    
+    
+    .para pre{
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 17px;
+        word-spacing: 2px;
+        font-weight: 400;
+        color:#010303;
+        line-height: 2px;
+    
+    
+    }
+    
+    /* FEATURED IN PROPERTIES ENDS */    
+
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 footer{
     
     height: 250px;
     border-top: 1px grey solid;
-    width: 1500px;
     margin: auto;
 }
 
@@ -144,12 +579,14 @@ footer{
     height: 250px;
     width: 50%;
     float: left;
+    display: flex;
 }
 
 .second-half{
     height: 250px;
     float: right;
     width: 50%;
+    display: flex;
 }
 
 .fcontainer{
